@@ -1,0 +1,1 @@
+The CSS property `calc()` can sometimes lead to unexpected results if used incorrectly. For example, if you use `calc()` to calculate a width and include units in the calculation, but forget to include units in the final result, the calculation might fail silently.

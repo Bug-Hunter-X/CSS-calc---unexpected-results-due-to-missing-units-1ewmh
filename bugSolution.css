@@ -1,0 +1,10 @@
+Always ensure consistent unit usage within your `calc()` expressions. If you are adding or subtracting values, they must all have the same unit.  If multiplying or dividing, ensure the units result in the expected unit for the final value.
+
+Example of Corrected Code:
+
+```css
+.element {
+  width: calc(100% - 20px);
+}
+```
+In this example, both `100%` and `20px` are explicitly defined with units and the calculation correctly results in a width value with `px` units.
